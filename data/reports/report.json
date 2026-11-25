@@ -1,0 +1,639 @@
+{
+  "generated_at": "2026-11-25T03:04:27+00:00",
+  "mode": "manual",
+  "source": "http://opendata.trudvsem.ru/api/v1/vacancies/region/39",
+  "ai": {
+    "provider": "gigachat",
+    "model": "GigaChat"
+  },
+  "stats": {
+    "vacancies_in": 50,
+    "vacancies_in_report": 50,
+    "duplicates_skipped": 0,
+    "vacancies_with_findings": 24,
+    "findings_total": 40,
+    "by_kind": {
+      "omission": 22,
+      "ambiguity": 17,
+      "contradiction": 1
+    },
+    "ai_errors": 36
+  },
+  "vacancies": [
+    {
+      "id": "dfdfe7c6-1b0a-11ee-9f4d-9586bb63c653",
+      "url": "https://trudvsem.ru/vacancy/card/1023901018570/dfdfe7c6-1b0a-11ee-9f4d-9586bb63c653",
+      "findings": []
+    },
+    {
+      "id": "1711d0c8-e284-11f1-8d1a-453232bb56a3",
+      "url": "https://trudvsem.ru/vacancy/card/1023902296307/1711d0c8-e284-11f1-8d1a-453232bb56a3",
+      "findings": []
+    },
+    {
+      "id": "0dc1c4a3-a6b5-11f1-b4b9-312b1e80675a",
+      "url": "https://trudvsem.ru/vacancy/card/1023902296307/0dc1c4a3-a6b5-11f1-b4b9-312b1e80675a",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        }
+      ]
+    },
+    {
+      "id": "333e4e78-85a7-11f1-be40-f90a836cd168",
+      "url": "https://trudvsem.ru/vacancy/card/1023902296307/333e4e78-85a7-11f1-be40-f90a836cd168",
+      "findings": []
+    },
+    {
+      "id": "ebb27e68-e284-11f1-bbbe-cd6f87e05b83",
+      "url": "https://trudvsem.ru/vacancy/card/1023902296307/ebb27e68-e284-11f1-bbbe-cd6f87e05b83",
+      "findings": []
+    },
+    {
+      "id": "460f1c08-600e-11f1-a885-41d00752341b",
+      "url": "https://trudvsem.ru/vacancy/card/1023902296307/460f1c08-600e-11f1-a885-41d00752341b",
+      "findings": []
+    },
+    {
+      "id": "759c1368-8fed-11f1-b546-0def9408a49f",
+      "url": "https://trudvsem.ru/vacancy/card/1023902296307/759c1368-8fed-11f1-b546-0def9408a49f",
+      "findings": []
+    },
+    {
+      "id": "ada414f8-dda5-11f1-8798-75bc1c1c1094",
+      "url": "https://trudvsem.ru/vacancy/card/1217700536063/ada414f8-dda5-11f1-8798-75bc1c1c1094",
+      "findings": []
+    },
+    {
+      "id": "59c75ca5-5351-11f1-bb82-7f8bb357025f",
+      "url": "https://trudvsem.ru/vacancy/card/1023901014323/59c75ca5-5351-11f1-bb82-7f8bb357025f",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        }
+      ]
+    },
+    {
+      "id": "f53dc178-6e20-11f1-a0ef-714ad8f097f6",
+      "url": "https://trudvsem.ru/vacancy/card/1023901014323/f53dc178-6e20-11f1-a0ef-714ad8f097f6",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        }
+      ]
+    },
+    {
+      "id": "c20c87f8-b105-11f1-9b06-338bb3104f83",
+      "url": "https://trudvsem.ru/vacancy/card/1023901014323/c20c87f8-b105-11f1-9b06-338bb3104f83",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        }
+      ]
+    },
+    {
+      "id": "9a583c38-b106-11f1-9b06-338bb3104f83",
+      "url": "https://trudvsem.ru/vacancy/card/1023901014323/9a583c38-b106-11f1-9b06-338bb3104f83",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        }
+      ]
+    },
+    {
+      "id": "efcfae38-b0f4-11f1-9b06-338bb3104f83",
+      "url": "https://trudvsem.ru/vacancy/card/1023901014323/efcfae38-b0f4-11f1-9b06-338bb3104f83",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        }
+      ]
+    },
+    {
+      "id": "de5ae404-e7ed-11f1-97a0-6b8e97d8bf9c",
+      "url": "https://trudvsem.ru/vacancy/card/5147746474134/de5ae404-e7ed-11f1-97a0-6b8e97d8bf9c",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "требования",
+          "field": "requirements",
+          "quote": "",
+          "issue": "В вакансии нет сведений: профессиональные требования к соискателю.",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: профессиональные требования к соискателю. Не выдумывайте значения."
+        },
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        }
+      ]
+    },
+    {
+      "id": "7d9bb2d8-e7ec-11f1-a199-e91de5251cd9",
+      "url": "https://trudvsem.ru/vacancy/card/1023902274406/7d9bb2d8-e7ec-11f1-a199-e91de5251cd9",
+      "findings": []
+    },
+    {
+      "id": "a5970f48-7132-11f1-8093-61b073a087e6",
+      "url": "https://trudvsem.ru/vacancy/card/1023901863754/a5970f48-7132-11f1-8093-61b073a087e6",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        }
+      ]
+    },
+    {
+      "id": "132abf38-e7ed-11f1-8931-dd33cc8cc9df",
+      "url": "https://trudvsem.ru/vacancy/card/1123926048146/132abf38-e7ed-11f1-8931-dd33cc8cc9df",
+      "findings": []
+    },
+    {
+      "id": "0cb96210-e7ec-11f1-ba9d-976d66553d64",
+      "url": "https://trudvsem.ru/vacancy/card/1183926009695/0cb96210-e7ec-11f1-ba9d-976d66553d64",
+      "findings": []
+    },
+    {
+      "id": "ed297028-76da-11f1-a323-9d73f5e76293",
+      "url": "https://trudvsem.ru/vacancy/card/1023901863754/ed297028-76da-11f1-a323-9d73f5e76293",
+      "findings": []
+    },
+    {
+      "id": "bef177c8-76da-11f1-9a9e-6f4b77459deb",
+      "url": "https://trudvsem.ru/vacancy/card/1023901863754/bef177c8-76da-11f1-9a9e-6f4b77459deb",
+      "findings": []
+    },
+    {
+      "id": "733b52c8-970e-11f1-882e-0dd886e483c8",
+      "url": "https://trudvsem.ru/vacancy/card/1023901863754/733b52c8-970e-11f1-882e-0dd886e483c8",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        }
+      ]
+    },
+    {
+      "id": "1ba5c9a0-d453-11f1-866f-d9b02784358d",
+      "url": "https://trudvsem.ru/vacancy/card/1123926048146/1ba5c9a0-d453-11f1-866f-d9b02784358d",
+      "findings": []
+    },
+    {
+      "id": "3e58b118-d453-11f1-8654-9feb112f5656",
+      "url": "https://trudvsem.ru/vacancy/card/1123926048146/3e58b118-d453-11f1-8654-9feb112f5656",
+      "findings": []
+    },
+    {
+      "id": "0b8dea78-a21c-11f1-b89a-011db2a3ebbd",
+      "url": "https://trudvsem.ru/vacancy/card/1123926048146/0b8dea78-a21c-11f1-b89a-011db2a3ebbd",
+      "findings": []
+    },
+    {
+      "id": "6c0d48f8-a21c-11f1-805f-61e527cd6ba8",
+      "url": "https://trudvsem.ru/vacancy/card/1123926048146/6c0d48f8-a21c-11f1-805f-61e527cd6ba8",
+      "findings": []
+    },
+    {
+      "id": "475c5c68-d1e4-11f1-80bc-ff9d6c68c0a4",
+      "url": "https://trudvsem.ru/vacancy/card/1023901010242/475c5c68-d1e4-11f1-80bc-ff9d6c68c0a4",
+      "findings": []
+    },
+    {
+      "id": "e33f5508-752e-11f1-ba13-0df010550bdb",
+      "url": "https://trudvsem.ru/vacancy/card/1183926021289/e33f5508-752e-11f1-ba13-0df010550bdb",
+      "findings": []
+    },
+    {
+      "id": "ab433afb-187b-11f1-973f-37d17022a317",
+      "url": "https://trudvsem.ru/vacancy/card/1183926021289/ab433afb-187b-11f1-973f-37d17022a317",
+      "findings": []
+    },
+    {
+      "id": "3179ec78-7530-11f1-8cac-592f72d140bc",
+      "url": "https://trudvsem.ru/vacancy/card/1183926021289/3179ec78-7530-11f1-8cac-592f72d140bc",
+      "findings": []
+    },
+    {
+      "id": "2d2215f9-752e-11f1-8cac-592f72d140bc",
+      "url": "https://trudvsem.ru/vacancy/card/1183926021289/2d2215f9-752e-11f1-8cac-592f72d140bc",
+      "findings": []
+    },
+    {
+      "id": "8f7b3d89-752e-11f1-b25d-8f333dbde8a0",
+      "url": "https://trudvsem.ru/vacancy/card/1183926021289/8f7b3d89-752e-11f1-b25d-8f333dbde8a0",
+      "findings": []
+    },
+    {
+      "id": "63b4c4e8-752f-11f1-8cac-592f72d140bc",
+      "url": "https://trudvsem.ru/vacancy/card/1183926021289/63b4c4e8-752f-11f1-8cac-592f72d140bc",
+      "findings": []
+    },
+    {
+      "id": "ad651989-85a8-11f1-85a9-11a640c6657d",
+      "url": "https://trudvsem.ru/vacancy/card/1183926021289/ad651989-85a8-11f1-85a9-11a640c6657d",
+      "findings": []
+    },
+    {
+      "id": "0d16fca0-b0dc-11f1-987b-b1d3bf2d14ab",
+      "url": "https://trudvsem.ru/vacancy/card/1023900768693/0d16fca0-b0dc-11f1-987b-b1d3bf2d14ab",
+      "findings": [
+        {
+          "kind": "ambiguity",
+          "topic": "график работы",
+          "field": "requirement.qualification",
+          "quote": "График 2/2, с понедельника по пятницу с 8:30 до 20:30, суббота с 8:30 до 14:30, воскресенье выходной",
+          "issue": "Неясно, что означает график 2/2.",
+          "recommendation": "Пожалуйста, уточните, какой конкретно режим работы предполагает график 2/2."
+        }
+      ]
+    },
+    {
+      "id": "001fbc50-c64c-11f1-9dff-97d306130813",
+      "url": "https://trudvsem.ru/vacancy/card/1193926000267/001fbc50-c64c-11f1-9dff-97d306130813",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        },
+        {
+          "kind": "ambiguity",
+          "topic": "место работы",
+          "field": "addresses.address[].location",
+          "quote": "Калининградская область, Светлогорский район, г Светлогорск, Новая улица, 2",
+          "issue": "Неясно, является ли город Светлогорск местом постоянной работы или это адрес расположения объекта.",
+          "recommendation": "Уточните у работодателя, является ли город Светлогорск постоянным местом работы или это лишь адрес объекта."
+        }
+      ]
+    },
+    {
+      "id": "614dcc28-ac47-11f1-86d3-9d322d9153e2",
+      "url": "https://trudvsem.ru/vacancy/card/1193926000267/614dcc28-ac47-11f1-86d3-9d322d9153e2",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        },
+        {
+          "kind": "ambiguity",
+          "topic": "место работы",
+          "field": "addresses.address[].location",
+          "quote": "Калининградская область, Светлогорский район, г Светлогорск, Новая улица, дом 2",
+          "issue": "Неясно, является ли адрес точным местоположением рабочего места или это административный адрес компании.",
+          "recommendation": "Уточните точный адрес рабочего места."
+        }
+      ]
+    },
+    {
+      "id": "1818c94a-0113-11f1-8592-4dd9ad6edd88",
+      "url": "https://trudvsem.ru/vacancy/card/1113926020768/1818c94a-0113-11f1-8592-4dd9ad6edd88",
+      "findings": [
+        {
+          "kind": "ambiguity",
+          "topic": "график работы",
+          "field": "schedule",
+          "quote": "Неполный рабочий день/неполная рабочая неделя",
+          "issue": "Неясно, какой конкретно режим рабочего времени предполагает неполный рабочий день/неполная рабочая неделя.",
+          "recommendation": "Уточнить количество рабочих часов и дней в неделю."
+        },
+        {
+          "kind": "ambiguity",
+          "topic": "место работы",
+          "field": "addresses.address[].location",
+          "quote": "Калининградская область, г Калининград, Николая Карамзина улица, дом: 35;",
+          "issue": "Не указан точный адрес или номер помещения внутри здания.",
+          "recommendation": "Уточнить полный адрес и номер помещения внутри здания."
+        }
+      ]
+    },
+    {
+      "id": "518a3118-e4c4-11f1-9be5-7f6c8c1e5938",
+      "url": "https://trudvsem.ru/vacancy/card/1113926020768/518a3118-e4c4-11f1-9be5-7f6c8c1e5938",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        },
+        {
+          "kind": "ambiguity",
+          "topic": "место работы",
+          "field": "addresses.address[].location",
+          "quote": "Калининградская область, г Калининград, Николая Карамзина улица, дом: Д.35;",
+          "issue": "Неясно, является ли адрес полным или требуется уточнение.",
+          "recommendation": "Пожалуйста, уточните полный адрес места работы."
+        },
+        {
+          "kind": "contradiction",
+          "topic": "оплата труда",
+          "field": "salary",
+          "quote": "от 40000",
+          "issue": "Противоречие в указании минимальной и максимальной оплаты труда.",
+          "recommendation": "Укажите точную сумму оплаты труда.",
+          "values": [
+            "40000",
+            "45000"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8e1e2939-2f4b-11f1-8701-7ffab189dfea",
+      "url": "https://trudvsem.ru/vacancy/card/1113926020768/8e1e2939-2f4b-11f1-8701-7ffab189dfea",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        },
+        {
+          "kind": "ambiguity",
+          "topic": "место работы",
+          "field": "addresses.address[].location",
+          "quote": "Калининградская область, г Калининград, Николая Карамзина улица, дом: Д.35;",
+          "issue": "Неясно, является ли адрес полным или требуется уточнение.",
+          "recommendation": "Пожалуйста, уточните полный адрес места работы."
+        }
+      ]
+    },
+    {
+      "id": "91e8fac8-0112-11f1-ba5c-d3eaa583f472",
+      "url": "https://trudvsem.ru/vacancy/card/1113926020768/91e8fac8-0112-11f1-ba5c-d3eaa583f472",
+      "findings": [
+        {
+          "kind": "ambiguity",
+          "topic": "график работы",
+          "field": "schedule",
+          "quote": "Неполный рабочий день/неполная рабочая неделя",
+          "issue": "Неясно, какой конкретно режим рабочего времени предполагает работодатель.",
+          "recommendation": "Уточните дни и часы работы, число смен."
+        },
+        {
+          "kind": "ambiguity",
+          "topic": "место работы",
+          "field": "addresses.address[].location",
+          "quote": "Калининградская область, г Калининград, Николая Карамзина улица, дом: 35;",
+          "issue": "Не указан точный адрес внутри дома.",
+          "recommendation": "Укажите номер квартиры или комнаты."
+        }
+      ]
+    },
+    {
+      "id": "ba5e7e38-0112-11f1-bad9-3152b78adbe9",
+      "url": "https://trudvsem.ru/vacancy/card/1113926020768/ba5e7e38-0112-11f1-bad9-3152b78adbe9",
+      "findings": [
+        {
+          "kind": "ambiguity",
+          "topic": "график работы",
+          "field": "schedule",
+          "quote": "Неполный рабочий день/неполная рабочая неделя",
+          "issue": "Неясно, какой конкретно режим неполного рабочего времени предлагается: сокращённая неделя или неполный рабочий день?",
+          "recommendation": "Уточнить детали графика работы: является ли это сокращённой рабочей неделей или неполным рабочим днём?"
+        },
+        {
+          "kind": "ambiguity",
+          "topic": "место работы",
+          "field": "addresses.address[].location",
+          "quote": "Калининградская область, г Калининград, Николая Карамзина улица, дом: 35;",
+          "issue": "Не указан точный адрес внутри дома 35 на улице Николая Карамзина.",
+          "recommendation": "Уточнить номер квартиры или офиса внутри дома 35 на улице Николая Карамзина."
+        }
+      ]
+    },
+    {
+      "id": "e74a8915-af32-11ec-ac55-57fc951f3846",
+      "url": "https://trudvsem.ru/vacancy/card/1173926027725/e74a8915-af32-11ec-ac55-57fc951f3846",
+      "findings": [
+        {
+          "kind": "ambiguity",
+          "topic": "место работы",
+          "field": "addresses.address[].location",
+          "quote": "Калининградская область, Зеленоградский район, Индустриальный парк Храброво территория, Центральная улица, 38а",
+          "issue": "Не указан точный адрес места работы.",
+          "recommendation": "Уточнить полный адрес рабочего места."
+        },
+        {
+          "kind": "ambiguity",
+          "topic": "график работы",
+          "field": "schedule",
+          "quote": "Полный рабочий день",
+          "issue": "Не указаны дни и часы работы.",
+          "recommendation": "Уточнить дни и часы работы."
+        }
+      ]
+    },
+    {
+      "id": "dd9e4cf0-3352-11f1-b947-4d49996e2db0",
+      "url": "https://trudvsem.ru/vacancy/card/1173926027725/dd9e4cf0-3352-11f1-b947-4d49996e2db0",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        },
+        {
+          "kind": "ambiguity",
+          "topic": "место работы",
+          "field": "addresses.address[].location",
+          "quote": "Калининградская область, Зеленоградский район, Индустриальный парк Храброво территория, Центральная улица, Д. 38А",
+          "issue": "Неясно название населённого пункта или точный адрес места работы.",
+          "recommendation": "Уточните название населённого пункта и точный адрес рабочего места."
+        }
+      ]
+    },
+    {
+      "id": "d807ca52-a090-11f1-ae19-97b17645c340",
+      "url": "https://trudvsem.ru/vacancy/card/1023900780111/d807ca52-a090-11f1-ae19-97b17645c340",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        },
+        {
+          "kind": "ambiguity",
+          "topic": "график работы",
+          "field": "schedule",
+          "quote": "Режим гибкого рабочего времени",
+          "issue": "Неясно, какой конкретно режим гибкого графика предполагается.",
+          "recommendation": "Уточните дни и часы работы, число смен при гибком графике."
+        }
+      ]
+    },
+    {
+      "id": "0ddc6c59-cdff-11f1-8a66-cf4c2450ca83",
+      "url": "https://trudvsem.ru/vacancy/card/1023900780111/0ddc6c59-cdff-11f1-8a66-cf4c2450ca83",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        },
+        {
+          "kind": "ambiguity",
+          "topic": "график работы",
+          "field": "schedule",
+          "quote": "Полный рабочий день",
+          "issue": "Неясно, подразумевается стандартный 5-дневный график или иной.",
+          "recommendation": "Уточните дни и часы работы, число смен при полном рабочем дне."
+        }
+      ]
+    },
+    {
+      "id": "77c32610-a993-11f0-8be1-abd4f0e64f6f",
+      "url": "https://trudvsem.ru/vacancy/card/1123926008381/77c32610-a993-11f0-8be1-abd4f0e64f6f",
+      "findings": []
+    },
+    {
+      "id": "3a287738-a900-11f0-8be1-abd4f0e64f6f",
+      "url": "https://trudvsem.ru/vacancy/card/1143926023086/3a287738-a900-11f0-8be1-abd4f0e64f6f",
+      "findings": []
+    },
+    {
+      "id": "f3356dc5-c0b3-11f1-9d44-2dc69a8b29e7",
+      "url": "https://trudvsem.ru/vacancy/card/1027700404797/f3356dc5-c0b3-11f1-9d44-2dc69a8b29e7",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "требования",
+          "field": "requirement.education",
+          "quote": "",
+          "issue": "В вакансии нет сведений: требуемый уровень образования.",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: требуемый уровень образования. Не выдумывайте значения."
+        },
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        }
+      ]
+    },
+    {
+      "id": "105753e8-4e1e-11f1-a0b8-eb2e562b1fbc",
+      "url": "https://trudvsem.ru/vacancy/card/1023901645767/105753e8-4e1e-11f1-a0b8-eb2e562b1fbc",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        }
+      ]
+    },
+    {
+      "id": "50e80f60-e70e-11f1-937e-27eb33efc54e",
+      "url": "https://trudvsem.ru/vacancy/card/1027700404797/50e80f60-e70e-11f1-937e-27eb33efc54e",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "требования",
+          "field": "requirements",
+          "quote": "",
+          "issue": "В вакансии нет сведений: профессиональные требования к соискателю.",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: профессиональные требования к соискателю. Не выдумывайте значения."
+        },
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        },
+        {
+          "kind": "ambiguity",
+          "topic": "график работы",
+          "field": "schedule",
+          "quote": "Полный рабочий день",
+          "issue": "Неясно, какой конкретно режим полного рабочего дня предлагается.",
+          "recommendation": "Уточните дни и часы работы, число смен."
+        }
+      ]
+    }
+  ],
+  "ai_error_samples": [
+    "[0] dfdfe7c6-1b0a-11ee-9f4d-9586bb63c653: AIUnavailable: GigaChat вернул HTTP 429: {'status': 429, 'message': 'Too Many Requests'}",
+    "[1] 1711d0c8-e284-11f1-8d1a-453232bb56a3: AIUnavailable: GigaChat вернул HTTP 429: {'status': 429, 'message': 'Too Many Requests'}",
+    "[2] 0dc1c4a3-a6b5-11f1-b4b9-312b1e80675a: AIUnavailable: GigaChat вернул HTTP 429: {'status': 429, 'message': 'Too Many Requests'}",
+    "[3] 333e4e78-85a7-11f1-be40-f90a836cd168: AIUnavailable: GigaChat вернул HTTP 429: {'status': 429, 'message': 'Too Many Requests'}",
+    "[4] ebb27e68-e284-11f1-bbbe-cd6f87e05b83: AIUnavailable: GigaChat вернул HTTP 429: {'status': 429, 'message': 'Too Many Requests'}",
+    "[5] 460f1c08-600e-11f1-a885-41d00752341b: AIUnavailable: GigaChat вернул HTTP 429: {'status': 429, 'message': 'Too Many Requests'}",
+    "[6] 759c1368-8fed-11f1-b546-0def9408a49f: AIUnavailable: GigaChat вернул HTTP 429: {'status': 429, 'message': 'Too Many Requests'}",
+    "[8] 59c75ca5-5351-11f1-bb82-7f8bb357025f: AIUnavailable: GigaChat вернул HTTP 429: {'status': 429, 'message': 'Too Many Requests'}",
+    "[9] f53dc178-6e20-11f1-a0ef-714ad8f097f6: AIUnavailable: GigaChat вернул HTTP 429: {'status': 429, 'message': 'Too Many Requests'}",
+    "[10] c20c87f8-b105-11f1-9b06-338bb3104f83: AIUnavailable: GigaChat вернул HTTP 429: {'status': 429, 'message': 'Too Many Requests'}"
+  ],
+  "fetch": {
+    "pages_loaded": 2,
+    "total_on_portal": 4232,
+    "vacancies_loaded": 50
+  }
+}

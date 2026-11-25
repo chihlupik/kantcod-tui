@@ -1,3 +1,4 @@
 requests>=2.31,<3
 croniter>=2.0,<3
 python-dotenv>=1.0,<2
+textual>=0.89,<1.0

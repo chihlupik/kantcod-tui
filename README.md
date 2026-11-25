@@ -6,6 +6,28 @@
 
 ---
 
+## Быстрый старт
+
+Установите проект в окружение один раз — появятся команды `kantcod` (TUI) и `kantcod-cli` (консоль):
+
+```bash
+# из папки проекта
+.venv/bin/pip install -e .        # Windows: .venv\Scripts\pip install -e .
+
+kantcod                            # открыть TUI
+kantcod-cli check                  # самопроверка
+kantcod-cli run --ai rules         # загрузить вакансии и сохранить отчёт
+kantcod-cli verify --ai rules --input data/sample/training_vacancies.json
+```
+
+После активации окружения (`source .venv/bin/activate`, Windows: `.venv\Scripts\Activate.ps1`) команды доступны просто как `kantcod` / `kantcod-cli`. Без установки работают `python -m src.tui` и `python -m src.cli ...`.
+
+Запуск двойным кликом: `kantcod.bat` (Windows) или `kantcod.command` (macOS/Linux). В Linux-меню приложений появляется пункт «Прозрачная вакансия».
+
+**Готово к передаче непрограммисту:** установка в один клик — `install.bat` (Windows) / `install.sh` (macOS/Linux); инструкция для пользователя — [docs/user_guide.md](docs/user_guide.md).
+
+---
+
 ## Что делает сервис
 
 1. **Рабочий режим** (`run`, `schedule`) — получает вакансии через `http://opendata.trudvsem.ru/api/v1/vacancies/region/39` постранично (`limit`/`offset`), анализирует и сохраняет отчёт. Ручной запуск — та же функция, что и по расписанию.
@@ -147,6 +169,30 @@ python -m src.cli resume --vacancy-id train-003 --input data/sample/training_vac
 
 ---
 
+## TUI — кроссплатформенный интерфейс (Textual)
+
+Современный TUI на Python [Textual](https://textual.textualize.io/) — работает в Windows, Linux и macOS:
+
+```bash
+# Windows: .venv\Scripts\python -m src.tui
+.venv/bin/python -m src.tui
+```
+
+Что умеет панель:
+
+- **Обзор** — сводка последнего отчёта (дата, режим, вакансии, по видам замечаний, провайдер) и кнопки:
+  - *Запустить сейчас* — загрузка с портала + анализ (работает в фоне, UI не замораживается);
+  - *Проверить файл* — проверка локального JSON без портала (поле с путём, по умолчанию `data/sample/training_vacancies.json`);
+  - *Черновик резюма* — сценарий `resume` под указанную вакансию (поле ID);
+  - *Открыть отчёт* — открытие отчёта в системном приложении.
+- **Замечания** — детали каждого замечания из отчёта (тема, поле, суть, рекомендация, цитата).
+- **Настройки** — пути, cron, лимиты; изменения сохраняются в `config/config.json` («Сохранить config.json»), путь отчёта можно менять без перезапуска.
+- **Лог** — история действий и ошибок.
+
+Выход: `Ctrl+Q` (или крестик окна). Для «Запустить сейчас» нужен ИИ-провайдер — см. выше (GigaChat или Ollama).
+
+---
+
 ## Формат отчёта
 
 `data/reports/*.json` — объект:
@@ -206,6 +252,7 @@ python -m src.cli resume --vacancy-id train-003 --input data/sample/training_vac
 
 ```
 src/cli.py            точка входа: run / verify / schedule / check / resume
+src/tui.py            TUI-панель на Textual (запуск: python -m src.tui)
 src/config.py         конфигурация и env-переопределения
 src/fetcher.py        постраничная загрузка API, повторы, ошибки
 src/facts.py          нормализация полей, пропуски и проверяемые противоречия

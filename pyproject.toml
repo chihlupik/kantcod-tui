@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kantcod"
+version = "0.1.0"
+description = "Прозрачная вакансия — анализ вакансий портала «Работа в России»"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31,<3",
+    "croniter>=2.0,<3",
+    "python-dotenv>=1.0,<2",
+    "textual>=0.89,<1.0",
+]
+
+[project.scripts]
+kantcod = "src.tui:main"
+kantcod-cli = "src.cli:main"
+
+[tool.setuptools]
+packages = ["src", "src.ai"]

@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-11-25T02:56:31+00:00",
+  "mode": "manual",
+  "source": "http://opendata.trudvsem.ru/api/v1/vacancies/region/39",
+  "ai": {
+    "provider": "rules",
+    "model": "none"
+  },
+  "stats": {
+    "vacancies_in": 5,
+    "vacancies_in_report": 5,
+    "duplicates_skipped": 0,
+    "vacancies_with_findings": 1,
+    "findings_total": 1,
+    "by_kind": {
+      "omission": 1
+    },
+    "ai_errors": 0
+  },
+  "vacancies": [
+    {
+      "id": "dfdfe7c6-1b0a-11ee-9f4d-9586bb63c653",
+      "url": "https://trudvsem.ru/vacancy/card/1023901018570/dfdfe7c6-1b0a-11ee-9f4d-9586bb63c653",
+      "findings": []
+    },
+    {
+      "id": "1711d0c8-e284-11f1-8d1a-453232bb56a3",
+      "url": "https://trudvsem.ru/vacancy/card/1023902296307/1711d0c8-e284-11f1-8d1a-453232bb56a3",
+      "findings": []
+    },
+    {
+      "id": "0dc1c4a3-a6b5-11f1-b4b9-312b1e80675a",
+      "url": "https://trudvsem.ru/vacancy/card/1023902296307/0dc1c4a3-a6b5-11f1-b4b9-312b1e80675a",
+      "findings": [
+        {
+          "kind": "omission",
+          "topic": "тип занятости",
+          "field": "employment",
+          "quote": "",
+          "issue": "В вакансии нет сведений: тип занятости (полная/частичная).",
+          "recommendation": "Уточните у работодателя и добавьте в карточку: тип занятости (полная/частичная). Не выдумывайте значения."
+        }
+      ]
+    },
+    {
+      "id": "333e4e78-85a7-11f1-be40-f90a836cd168",
+      "url": "https://trudvsem.ru/vacancy/card/1023902296307/333e4e78-85a7-11f1-be40-f90a836cd168",
+      "findings": []
+    },
+    {
+      "id": "ebb27e68-e284-11f1-bbbe-cd6f87e05b83",
+      "url": "https://trudvsem.ru/vacancy/card/1023902296307/ebb27e68-e284-11f1-bbbe-cd6f87e05b83",
+      "findings": []
+    }
+  ],
+  "fetch": {
+    "pages_loaded": 1,
+    "total_on_portal": 4232,
+    "vacancies_loaded": 5
+  }
+}
